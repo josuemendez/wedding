@@ -521,7 +521,7 @@ ul.color_schemes li {
 	position: relative;
 }
 .countDays:after{
-	content: "Days";
+	content: "Dias";
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -530,7 +530,7 @@ ul.color_schemes li {
 	font-size: 20px;
 }
 .countHours:after{
-	content: "Hours";
+	content: "Horas";
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -539,7 +539,7 @@ ul.color_schemes li {
 	font-size: 20px;
 }
 .countMinutes:after{
-	content: "Minutes";
+	content: "Minutos";
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -548,7 +548,7 @@ ul.color_schemes li {
 	font-size: 20px;
 }
 .countSeconds:after{
-	content: "Seconds";
+	content: "Segundos";
 	position: absolute;
 	left: 0;
 	width: 100%;
