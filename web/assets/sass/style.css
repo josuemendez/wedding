@@ -316,6 +316,13 @@ img {
   }
 }
 
+/*contador style*/
+.cDia{
+  font-size: larger!important;
+  text-shadow: 7px 3px 13px #000000!important;
+}
+
+
 /*** contact form error handling ***/
 .contact-validation-active .error-handling-messages {
   width: 100% !important;
@@ -4478,15 +4485,20 @@ a.ui-button:active, .ui-button:active,
   }
 }
 
-.static-hero .wpo-wedding-date #clock,
+.static-hero .wpo-wedding-date #clockj,
+.static-hero .wpo-wedding-date #clockj,
 .static-hero .wpo-wedding-date #clock3,
-.static-hero-s2 .wpo-wedding-date #clock,
+.static-hero-s2 .wpo-wedding-date #clockj,
+.static-hero-s2 .wpo-wedding-date #clockj,
 .static-hero-s2 .wpo-wedding-date #clock3,
-.static-hero-s3 .wpo-wedding-date #clock,
+.static-hero-s3 .wpo-wedding-date #clockj,
+.static-hero-s3 .wpo-wedding-date #clockj,
 .static-hero-s3 .wpo-wedding-date #clock3,
-.static-hero-s5 .wpo-wedding-date #clock,
+.static-hero-s5 .wpo-wedding-date #clockj,
+.static-hero-s5 .wpo-wedding-date #clockj,
 .static-hero-s5 .wpo-wedding-date #clock3,
-.static-hero-s10 .wpo-wedding-date #clock,
+.static-hero-s10 .wpo-wedding-date #clockj
+.static-hero-s10 .wpo-wedding-date #clockj,
 .static-hero-s10 .wpo-wedding-date #clock3 {
   overflow: hidden;
   display: -webkit-box;
@@ -4500,29 +4512,39 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 530px) {
-  .static-hero .wpo-wedding-date #clock,
+  .static-hero .wpo-wedding-date #clockj,
+  .static-hero .wpo-wedding-date #clockj,
   .static-hero .wpo-wedding-date #clock3,
-  .static-hero-s2 .wpo-wedding-date #clock,
+  .static-hero-s2 .wpo-wedding-date #clockj
+  .static-hero-s2 .wpo-wedding-date #clockj,
   .static-hero-s2 .wpo-wedding-date #clock3,
-  .static-hero-s3 .wpo-wedding-date #clock,
+  .static-hero-s3 .wpo-wedding-date #clockj
+  .static-hero-s3 .wpo-wedding-date #clockj,
   .static-hero-s3 .wpo-wedding-date #clock3,
-  .static-hero-s5 .wpo-wedding-date #clock,
+  .static-hero-s5 .wpo-wedding-date #clockj
+  .static-hero-s5 .wpo-wedding-date #clockj,
   .static-hero-s5 .wpo-wedding-date #clock3,
-  .static-hero-s10 .wpo-wedding-date #clock,
+  .static-hero-s10 .wpo-wedding-date #clockj
+  .static-hero-s10 .wpo-wedding-date #clockj,
   .static-hero-s10 .wpo-wedding-date #clock3 {
     margin-top: 0;
   }
 }
 
-.static-hero .wpo-wedding-date #clock > div,
+.static-hero .wpo-wedding-date #clockj> div,
+.static-hero .wpo-wedding-date #clockj > div,
 .static-hero .wpo-wedding-date #clock3 > div,
-.static-hero-s2 .wpo-wedding-date #clock > div,
+.static-hero-s2 .wpo-wedding-date #clockj> div,
+.static-hero-s2 .wpo-wedding-date #clockj > div,
 .static-hero-s2 .wpo-wedding-date #clock3 > div,
-.static-hero-s3 .wpo-wedding-date #clock > div,
+.static-hero-s3 .wpo-wedding-date #clockj> div,
+.static-hero-s3 .wpo-wedding-date #clockj > div,
 .static-hero-s3 .wpo-wedding-date #clock3 > div,
-.static-hero-s5 .wpo-wedding-date #clock > div,
+.static-hero-s5 .wpo-wedding-date #clockj> div,
+.static-hero-s5 .wpo-wedding-date #clockj > div,
 .static-hero-s5 .wpo-wedding-date #clock3 > div,
-.static-hero-s10 .wpo-wedding-date #clock > div,
+.static-hero-s10 .wpo-wedding-date #clockj> div,
+.static-hero-s10 .wpo-wedding-date #clockj > div,
 .static-hero-s10 .wpo-wedding-date #clock3 > div {
   float: left;
   display: table;
@@ -4530,86 +4552,86 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 450px) {
-  .static-hero .wpo-wedding-date #clock > div,
+  .static-hero .wpo-wedding-date #clockj> div,
   .static-hero .wpo-wedding-date #clock3 > div,
-  .static-hero-s2 .wpo-wedding-date #clock > div,
+  .static-hero-s2 .wpo-wedding-date #clockj> div,
   .static-hero-s2 .wpo-wedding-date #clock3 > div,
-  .static-hero-s3 .wpo-wedding-date #clock > div,
+  .static-hero-s3 .wpo-wedding-date #clockj> div,
   .static-hero-s3 .wpo-wedding-date #clock3 > div,
-  .static-hero-s5 .wpo-wedding-date #clock > div,
+  .static-hero-s5 .wpo-wedding-date #clockj> div,
   .static-hero-s5 .wpo-wedding-date #clock3 > div,
-  .static-hero-s10 .wpo-wedding-date #clock > div,
+  .static-hero-s10 .wpo-wedding-date #clockj> div,
   .static-hero-s10 .wpo-wedding-date #clock3 > div {
     width: 60px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock > div > div,
+.static-hero .wpo-wedding-date #clockj> div > div,
 .static-hero .wpo-wedding-date #clock3 > div > div,
-.static-hero-s2 .wpo-wedding-date #clock > div > div,
+.static-hero-s2 .wpo-wedding-date #clockj> div > div,
 .static-hero-s2 .wpo-wedding-date #clock3 > div > div,
-.static-hero-s3 .wpo-wedding-date #clock > div > div,
+.static-hero-s3 .wpo-wedding-date #clockj> div > div,
 .static-hero-s3 .wpo-wedding-date #clock3 > div > div,
-.static-hero-s5 .wpo-wedding-date #clock > div > div,
+.static-hero-s5 .wpo-wedding-date #clockj> div > div,
 .static-hero-s5 .wpo-wedding-date #clock3 > div > div,
-.static-hero-s10 .wpo-wedding-date #clock > div > div,
+.static-hero-s10 .wpo-wedding-date #clockj> div > div,
 .static-hero-s10 .wpo-wedding-date #clock3 > div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.static-hero .wpo-wedding-date #clock > div + div,
+.static-hero .wpo-wedding-date #clockj> div + div,
 .static-hero .wpo-wedding-date #clock3 > div + div,
-.static-hero-s2 .wpo-wedding-date #clock > div + div,
+.static-hero-s2 .wpo-wedding-date #clockj> div + div,
 .static-hero-s2 .wpo-wedding-date #clock3 > div + div,
-.static-hero-s3 .wpo-wedding-date #clock > div + div,
+.static-hero-s3 .wpo-wedding-date #clockj> div + div,
 .static-hero-s3 .wpo-wedding-date #clock3 > div + div,
-.static-hero-s5 .wpo-wedding-date #clock > div + div,
+.static-hero-s5 .wpo-wedding-date #clockj> div + div,
 .static-hero-s5 .wpo-wedding-date #clock3 > div + div,
-.static-hero-s10 .wpo-wedding-date #clock > div + div,
+.static-hero-s10 .wpo-wedding-date #clockj> div + div,
 .static-hero-s10 .wpo-wedding-date #clock3 > div + div {
   margin-left: 30px;
 }
 
 @media (max-width: 991px) {
-  .static-hero .wpo-wedding-date #clock > div + div,
+  .static-hero .wpo-wedding-date #clockj> div + div,
   .static-hero .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s2 .wpo-wedding-date #clock > div + div,
+  .static-hero-s2 .wpo-wedding-date #clockj> div + div,
   .static-hero-s2 .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s3 .wpo-wedding-date #clock > div + div,
+  .static-hero-s3 .wpo-wedding-date #clockj> div + div,
   .static-hero-s3 .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s5 .wpo-wedding-date #clock > div + div,
+  .static-hero-s5 .wpo-wedding-date #clockj> div + div,
   .static-hero-s5 .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s10 .wpo-wedding-date #clock > div + div,
+  .static-hero-s10 .wpo-wedding-date #clockj> div + div,
   .static-hero-s10 .wpo-wedding-date #clock3 > div + div {
     margin-left: 10px;
   }
 }
 
 @media (max-width: 767px) {
-  .static-hero .wpo-wedding-date #clock > div + div,
+  .static-hero .wpo-wedding-date #clockj> div + div,
   .static-hero .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s2 .wpo-wedding-date #clock > div + div,
+  .static-hero-s2 .wpo-wedding-date #clockj> div + div,
   .static-hero-s2 .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s3 .wpo-wedding-date #clock > div + div,
+  .static-hero-s3 .wpo-wedding-date #clockj> div + div,
   .static-hero-s3 .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s5 .wpo-wedding-date #clock > div + div,
+  .static-hero-s5 .wpo-wedding-date #clockj> div + div,
   .static-hero-s5 .wpo-wedding-date #clock3 > div + div,
-  .static-hero-s10 .wpo-wedding-date #clock > div + div,
+  .static-hero-s10 .wpo-wedding-date #clockj> div + div,
   .static-hero-s10 .wpo-wedding-date #clock3 > div + div {
     margin-left: 10px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock .time,
+.static-hero .wpo-wedding-date #clockj.time,
 .static-hero .wpo-wedding-date #clock3 .time,
-.static-hero-s2 .wpo-wedding-date #clock .time,
+.static-hero-s2 .wpo-wedding-date #clockj.time,
 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.static-hero-s3 .wpo-wedding-date #clock .time,
+.static-hero-s3 .wpo-wedding-date #clockj.time,
 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.static-hero-s5 .wpo-wedding-date #clock .time,
+.static-hero-s5 .wpo-wedding-date #clockj.time,
 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.static-hero-s10 .wpo-wedding-date #clock .time,
+.static-hero-s10 .wpo-wedding-date #clockj.time,
 .static-hero-s10 .wpo-wedding-date #clock3 .time {
   font-family: "Sail", cursive;
   font-size: 60px;
@@ -4620,15 +4642,15 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1300px) {
-  .static-hero .wpo-wedding-date #clock .time,
+  .static-hero .wpo-wedding-date #clockj.time,
   .static-hero .wpo-wedding-date #clock3 .time,
-  .static-hero-s2 .wpo-wedding-date #clock .time,
+  .static-hero-s2 .wpo-wedding-date #clockj.time,
   .static-hero-s2 .wpo-wedding-date #clock3 .time,
-  .static-hero-s3 .wpo-wedding-date #clock .time,
+  .static-hero-s3 .wpo-wedding-date #clockj.time,
   .static-hero-s3 .wpo-wedding-date #clock3 .time,
-  .static-hero-s5 .wpo-wedding-date #clock .time,
+  .static-hero-s5 .wpo-wedding-date #clockj.time,
   .static-hero-s5 .wpo-wedding-date #clock3 .time,
-  .static-hero-s10 .wpo-wedding-date #clock .time,
+  .static-hero-s10 .wpo-wedding-date #clockj.time,
   .static-hero-s10 .wpo-wedding-date #clock3 .time {
     font-size: 50px;
     font-size: 3.33333rem;
@@ -4636,15 +4658,15 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1100px) {
-  .static-hero .wpo-wedding-date #clock .time,
+  .static-hero .wpo-wedding-date #clockj.time,
   .static-hero .wpo-wedding-date #clock3 .time,
-  .static-hero-s2 .wpo-wedding-date #clock .time,
+  .static-hero-s2 .wpo-wedding-date #clockj.time,
   .static-hero-s2 .wpo-wedding-date #clock3 .time,
-  .static-hero-s3 .wpo-wedding-date #clock .time,
+  .static-hero-s3 .wpo-wedding-date #clockj.time,
   .static-hero-s3 .wpo-wedding-date #clock3 .time,
-  .static-hero-s5 .wpo-wedding-date #clock .time,
+  .static-hero-s5 .wpo-wedding-date #clockj.time,
   .static-hero-s5 .wpo-wedding-date #clock3 .time,
-  .static-hero-s10 .wpo-wedding-date #clock .time,
+  .static-hero-s10 .wpo-wedding-date #clockj.time,
   .static-hero-s10 .wpo-wedding-date #clock3 .time {
     font-size: 40px;
     font-size: 2.66667rem;
@@ -4652,15 +4674,15 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 991px) {
-  .static-hero .wpo-wedding-date #clock .time,
+  .static-hero .wpo-wedding-date #clockj.time,
   .static-hero .wpo-wedding-date #clock3 .time,
-  .static-hero-s2 .wpo-wedding-date #clock .time,
+  .static-hero-s2 .wpo-wedding-date #clockj.time,
   .static-hero-s2 .wpo-wedding-date #clock3 .time,
-  .static-hero-s3 .wpo-wedding-date #clock .time,
+  .static-hero-s3 .wpo-wedding-date #clockj.time,
   .static-hero-s3 .wpo-wedding-date #clock3 .time,
-  .static-hero-s5 .wpo-wedding-date #clock .time,
+  .static-hero-s5 .wpo-wedding-date #clockj.time,
   .static-hero-s5 .wpo-wedding-date #clock3 .time,
-  .static-hero-s10 .wpo-wedding-date #clock .time,
+  .static-hero-s10 .wpo-wedding-date #clockj.time,
   .static-hero-s10 .wpo-wedding-date #clock3 .time {
     font-size: 50px;
     font-size: 3.33333rem;
@@ -4668,45 +4690,45 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 767px) {
-  .static-hero .wpo-wedding-date #clock .time,
+  .static-hero .wpo-wedding-date #clockj.time,
   .static-hero .wpo-wedding-date #clock3 .time,
-  .static-hero-s2 .wpo-wedding-date #clock .time,
+  .static-hero-s2 .wpo-wedding-date #clockj.time,
   .static-hero-s2 .wpo-wedding-date #clock3 .time,
-  .static-hero-s3 .wpo-wedding-date #clock .time,
+  .static-hero-s3 .wpo-wedding-date #clockj.time,
   .static-hero-s3 .wpo-wedding-date #clock3 .time,
-  .static-hero-s5 .wpo-wedding-date #clock .time,
+  .static-hero-s5 .wpo-wedding-date #clockj.time,
   .static-hero-s5 .wpo-wedding-date #clock3 .time,
-  .static-hero-s10 .wpo-wedding-date #clock .time,
+  .static-hero-s10 .wpo-wedding-date #clockj.time,
   .static-hero-s10 .wpo-wedding-date #clock3 .time {
     font-size: 40px;
     font-size: 2.66667rem;
   }
 }
 
-.static-hero .wpo-wedding-date #clock span,
+.static-hero .wpo-wedding-date #clockjspan,
 .static-hero .wpo-wedding-date #clock3 span,
-.static-hero-s2 .wpo-wedding-date #clock span,
+.static-hero-s2 .wpo-wedding-date #clockjspan,
 .static-hero-s2 .wpo-wedding-date #clock3 span,
-.static-hero-s3 .wpo-wedding-date #clock span,
+.static-hero-s3 .wpo-wedding-date #clockjspan,
 .static-hero-s3 .wpo-wedding-date #clock3 span,
-.static-hero-s5 .wpo-wedding-date #clock span,
+.static-hero-s5 .wpo-wedding-date #clockjspan,
 .static-hero-s5 .wpo-wedding-date #clock3 span,
-.static-hero-s10 .wpo-wedding-date #clock span,
+.static-hero-s10 .wpo-wedding-date #clockjspan,
 .static-hero-s10 .wpo-wedding-date #clock3 span {
   color: #5C5C5C;
   font-size: 20px;
 }
 
 @media (max-width: 991px) {
-  .static-hero .wpo-wedding-date #clock span,
+  .static-hero .wpo-wedding-date #clockjspan,
   .static-hero .wpo-wedding-date #clock3 span,
-  .static-hero-s2 .wpo-wedding-date #clock span,
+  .static-hero-s2 .wpo-wedding-date #clockjspan,
   .static-hero-s2 .wpo-wedding-date #clock3 span,
-  .static-hero-s3 .wpo-wedding-date #clock span,
+  .static-hero-s3 .wpo-wedding-date #clockjspan,
   .static-hero-s3 .wpo-wedding-date #clock3 span,
-  .static-hero-s5 .wpo-wedding-date #clock span,
+  .static-hero-s5 .wpo-wedding-date #clockjspan,
   .static-hero-s5 .wpo-wedding-date #clock3 span,
-  .static-hero-s10 .wpo-wedding-date #clock span,
+  .static-hero-s10 .wpo-wedding-date #clockjspan,
   .static-hero-s10 .wpo-wedding-date #clock3 span {
     font-size: 20px;
   }
@@ -5555,31 +5577,31 @@ a.ui-button:active, .ui-button:active,
   }
 }
 
-.static-hero-s3 .static-hero-right .wpo-wedding-date #clock {
+.static-hero-s3 .static-hero-right .wpo-wedding-date #clockj{
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 @media (max-width: 1199px) {
-  .static-hero-s3 .static-hero-right .wpo-wedding-date #clock .box {
+  .static-hero-s3 .static-hero-right .wpo-wedding-date #clockj.box {
     margin-left: 10px;
   }
 }
 
-.static-hero-s3 .static-hero-right .wpo-wedding-date #clock .time {
+.static-hero-s3 .static-hero-right .wpo-wedding-date #clockj.time {
   padding-top: 0;
   color: #fff;
   font-size: 65px;
 }
 
 @media (max-width: 1199px) {
-  .static-hero-s3 .static-hero-right .wpo-wedding-date #clock .time {
+  .static-hero-s3 .static-hero-right .wpo-wedding-date #clockj.time {
     font-size: 45px;
   }
 }
 
-.static-hero-s3 .static-hero-right .wpo-wedding-date #clock span {
+.static-hero-s3 .static-hero-right .wpo-wedding-date #clockjspan {
   color: #fff;
   font-size: 22px;
   font-style: normal;
@@ -5587,7 +5609,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .static-hero-s3 .static-hero-right .wpo-wedding-date #clock span {
+  .static-hero-s3 .static-hero-right .wpo-wedding-date #clockjspan {
     font-size: 18px;
   }
 }
@@ -5977,12 +5999,12 @@ a.ui-button:active, .ui-button:active,
   margin-top: 0;
 }
 
-.static-hero-s5 .wpo-static-hero-inner .wpo-wedding-date #clock > div {
+.static-hero-s5 .wpo-static-hero-inner .wpo-wedding-date #clockj> div {
   width: 75px;
 }
 
 @media (max-width: 1199px) {
-  .static-hero-s5 .wpo-static-hero-inner .wpo-wedding-date #clock > div {
+  .static-hero-s5 .wpo-static-hero-inner .wpo-wedding-date #clockj> div {
     width: 55px;
   }
 }
@@ -11486,7 +11508,7 @@ a.ui-button:active, .ui-button:active,
   }
 }
 
-.wpo-hero-wedding-date #clock {
+.wpo-hero-wedding-date #clockj{
   overflow: hidden;
   text-align: center;
   display: inline-block;
@@ -11494,12 +11516,12 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 767px) {
-  .wpo-hero-wedding-date #clock {
+  .wpo-hero-wedding-date #clockj{
     margin-top: 0;
   }
 }
 
-.wpo-hero-wedding-date #clock > div {
+.wpo-hero-wedding-date #clockj> div {
   width: 140px;
   height: 100px;
   float: left;
@@ -11507,41 +11529,41 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .wpo-hero-wedding-date #clock > div {
+  .wpo-hero-wedding-date #clockj> div {
     width: 80px;
     height: 40px;
   }
 }
 
 @media (max-width: 991px) {
-  .wpo-hero-wedding-date #clock > div {
+  .wpo-hero-wedding-date #clockj> div {
     width: 54px;
     height: 50px;
   }
 }
 
-.wpo-hero-wedding-date #clock > div > div {
+.wpo-hero-wedding-date #clockj> div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.wpo-hero-wedding-date #clock > div + div {
+.wpo-hero-wedding-date #clockj> div + div {
   margin-left: 50px;
 }
 
 @media (max-width: 991px) {
-  .wpo-hero-wedding-date #clock > div + div {
+  .wpo-hero-wedding-date #clockj> div + div {
     margin-left: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .wpo-hero-wedding-date #clock > div + div {
+  .wpo-hero-wedding-date #clockj> div + div {
     margin-left: 10px;
   }
 }
 
-.wpo-hero-wedding-date #clock .time {
+.wpo-hero-wedding-date #clockj.time {
   font-family: "Sail", cursive;
   font-size: 80px;
   font-size: 5.33333rem;
@@ -11553,20 +11575,20 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .wpo-hero-wedding-date #clock .time {
+  .wpo-hero-wedding-date #clockj.time {
     font-size: 50px;
     font-size: 3.33333rem;
   }
 }
 
 @media (max-width: 991px) {
-  .wpo-hero-wedding-date #clock .time {
+  .wpo-hero-wedding-date #clockj.time {
     font-size: 40px;
     font-size: 2.66667rem;
   }
 }
 
-.wpo-hero-wedding-date #clock span {
+.wpo-hero-wedding-date #clockjspan {
   color: #5C5C5C;
   font-size: 25px;
   font-style: normal;
@@ -11574,13 +11596,13 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .wpo-hero-wedding-date #clock span {
+  .wpo-hero-wedding-date #clockjspan {
     font-size: 20px;
   }
 }
 
 @media (max-width: 991px) {
-  .wpo-hero-wedding-date #clock span {
+  .wpo-hero-wedding-date #clockjspan {
     font-size: 18px;
   }
 }
@@ -13887,9 +13909,9 @@ a.ui-button:active, .ui-button:active,
   overflow: hidden;
 }
 
-.wpo-wedding-countdown #clock,
+.wpo-wedding-countdown #clockj
 .wpo-wedding-countdown #clock2,
-.wpo-wedding-countdown-s2 #clock,
+.wpo-wedding-countdown-s2 #clockj
 .wpo-wedding-countdown-s2 #clock2 {
   overflow: hidden;
   display: -webkit-box;
@@ -13903,9 +13925,9 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 991px) {
-  .wpo-wedding-countdown #clock,
+  .wpo-wedding-countdown #clockj
   .wpo-wedding-countdown #clock2,
-  .wpo-wedding-countdown-s2 #clock,
+  .wpo-wedding-countdown-s2 #clockj
   .wpo-wedding-countdown-s2 #clock2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -13914,17 +13936,17 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 530px) {
-  .wpo-wedding-countdown #clock,
+  .wpo-wedding-countdown #clockj
   .wpo-wedding-countdown #clock2,
-  .wpo-wedding-countdown-s2 #clock,
+  .wpo-wedding-countdown-s2 #clockj
   .wpo-wedding-countdown-s2 #clock2 {
     margin-top: 0;
   }
 }
 
-.wpo-wedding-countdown #clock > div,
+.wpo-wedding-countdown #clockj> div,
 .wpo-wedding-countdown #clock2 > div,
-.wpo-wedding-countdown-s2 #clock > div,
+.wpo-wedding-countdown-s2 #clockj> div,
 .wpo-wedding-countdown-s2 #clock2 > div {
   float: left;
   display: table;
@@ -13936,9 +13958,9 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .wpo-wedding-countdown #clock > div,
+  .wpo-wedding-countdown #clockj> div,
   .wpo-wedding-countdown #clock2 > div,
-  .wpo-wedding-countdown-s2 #clock > div,
+  .wpo-wedding-countdown-s2 #clockj> div,
   .wpo-wedding-countdown-s2 #clock2 > div {
     width: 200px;
     height: 200px;
@@ -13946,18 +13968,18 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 991px) {
-  .wpo-wedding-countdown #clock > div,
+  .wpo-wedding-countdown #clockj> div,
   .wpo-wedding-countdown #clock2 > div,
-  .wpo-wedding-countdown-s2 #clock > div,
+  .wpo-wedding-countdown-s2 #clockj> div,
   .wpo-wedding-countdown-s2 #clock2 > div {
     width: 170px;
     height: 170px;
   }
 }
 
-.wpo-wedding-countdown #clock > div > div,
+.wpo-wedding-countdown #clockj> div > div,
 .wpo-wedding-countdown #clock2 > div > div,
-.wpo-wedding-countdown-s2 #clock > div > div,
+.wpo-wedding-countdown-s2 #clockj> div > div,
 .wpo-wedding-countdown-s2 #clock2 > div > div {
   display: table-cell;
   vertical-align: middle;
@@ -13967,17 +13989,17 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 991px) {
-  .wpo-wedding-countdown #clock > div > div,
+  .wpo-wedding-countdown #clockj> div > div,
   .wpo-wedding-countdown #clock2 > div > div,
-  .wpo-wedding-countdown-s2 #clock > div > div,
+  .wpo-wedding-countdown-s2 #clockj> div > div,
   .wpo-wedding-countdown-s2 #clock2 > div > div {
     right: -10px;
   }
 }
 
-.wpo-wedding-countdown #clock .time,
+.wpo-wedding-countdown #clockj.time,
 .wpo-wedding-countdown #clock2 .time,
-.wpo-wedding-countdown-s2 #clock .time,
+.wpo-wedding-countdown-s2 #clockj.time,
 .wpo-wedding-countdown-s2 #clock2 .time {
   font-family: "Sail", cursive;
   font-size: 100px;
@@ -13987,9 +14009,9 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1300px) {
-  .wpo-wedding-countdown #clock .time,
+  .wpo-wedding-countdown #clockj.time,
   .wpo-wedding-countdown #clock2 .time,
-  .wpo-wedding-countdown-s2 #clock .time,
+  .wpo-wedding-countdown-s2 #clockj.time,
   .wpo-wedding-countdown-s2 #clock2 .time {
     font-size: 50px;
     font-size: 3.33333rem;
@@ -13997,9 +14019,9 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1100px) {
-  .wpo-wedding-countdown #clock .time,
+  .wpo-wedding-countdown #clockj.time,
   .wpo-wedding-countdown #clock2 .time,
-  .wpo-wedding-countdown-s2 #clock .time,
+  .wpo-wedding-countdown-s2 #clockj.time,
   .wpo-wedding-countdown-s2 #clock2 .time {
     font-size: 40px;
     font-size: 2.66667rem;
@@ -14007,9 +14029,9 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 991px) {
-  .wpo-wedding-countdown #clock .time,
+  .wpo-wedding-countdown #clockj.time,
   .wpo-wedding-countdown #clock2 .time,
-  .wpo-wedding-countdown-s2 #clock .time,
+  .wpo-wedding-countdown-s2 #clockj.time,
   .wpo-wedding-countdown-s2 #clock2 .time {
     font-size: 50px;
     font-size: 3.33333rem;
@@ -14017,27 +14039,27 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 767px) {
-  .wpo-wedding-countdown #clock .time,
+  .wpo-wedding-countdown #clockj.time,
   .wpo-wedding-countdown #clock2 .time,
-  .wpo-wedding-countdown-s2 #clock .time,
+  .wpo-wedding-countdown-s2 #clockj.time,
   .wpo-wedding-countdown-s2 #clock2 .time {
     font-size: 40px;
     font-size: 2.66667rem;
   }
 }
 
-.wpo-wedding-countdown #clock span,
+.wpo-wedding-countdown #clockjspan,
 .wpo-wedding-countdown #clock2 span,
-.wpo-wedding-countdown-s2 #clock span,
+.wpo-wedding-countdown-s2 #clockjspan,
 .wpo-wedding-countdown-s2 #clock2 span {
   color: #5C5C5C;
   font-size: 30px;
 }
 
 @media (max-width: 1300px) {
-  .wpo-wedding-countdown #clock span,
+  .wpo-wedding-countdown #clockjspan,
   .wpo-wedding-countdown #clock2 span,
-  .wpo-wedding-countdown-s2 #clock span,
+  .wpo-wedding-countdown-s2 #clockjspan,
   .wpo-wedding-countdown-s2 #clock2 span {
     font-size: 20px;
   }
@@ -17249,7 +17271,7 @@ a.ui-button:active, .ui-button:active,
   }
 }
 
-.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock {
+.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj{
   overflow: hidden;
   text-align: center;
   display: inline-block;
@@ -17257,12 +17279,12 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 767px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj{
     margin-top: 0;
   }
 }
 
-.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock > div {
+.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj> div {
   width: 70px;
   height: 70px;
   float: left;
@@ -17270,41 +17292,41 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock > div {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj> div {
     width: 80px;
     height: 40px;
   }
 }
 
 @media (max-width: 991px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock > div {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj> div {
     width: 52px;
     height: 50px;
   }
 }
 
-.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock > div > div {
+.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj> div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock > div + div {
+.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj> div + div {
   margin-left: 50px;
 }
 
 @media (max-width: 991px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock > div + div {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj> div + div {
     margin-left: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock > div + div {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj> div + div {
     margin-left: 10px;
   }
 }
 
-.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time {
+.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time {
   font-family: "Sail", cursive;
   font-size: 60px;
   font-size: 4rem;
@@ -17316,20 +17338,20 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time {
     font-size: 50px;
     font-size: 3.33333rem;
   }
 }
 
 @media (max-width: 991px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time {
     font-size: 40px;
     font-size: 2.66667rem;
   }
 }
 
-.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock span {
+.wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockjspan {
   color: #5C5C5C;
   font-size: 20px;
   font-style: normal;
@@ -17337,13 +17359,13 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1199px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock span {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockjspan {
     font-size: 20px;
   }
 }
 
 @media (max-width: 991px) {
-  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock span {
+  .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockjspan {
     font-size: 18px;
   }
 }
@@ -19540,7 +19562,7 @@ a.ui-button:active, .ui-button:active,
   }
 }
 
-.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock,
+.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 {
   overflow: hidden;
   display: -webkit-box;
@@ -19554,13 +19576,13 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 530px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 {
     margin-top: 0;
   }
 }
 
-.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock > div,
+.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj> div,
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 > div {
   float: left;
   display: table;
@@ -19568,38 +19590,38 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 450px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock > div,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj> div,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 > div {
     width: 52px;
   }
 }
 
-.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock > div > div,
+.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj> div > div,
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 > div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock > div + div,
+.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj> div + div,
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 > div + div {
   margin-left: 30px;
 }
 
 @media (max-width: 991px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock > div + div,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj> div + div,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 > div + div {
     margin-left: 10px;
   }
 }
 
 @media (max-width: 767px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock > div + div,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj> div + div,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 > div + div {
     margin-left: 10px;
   }
 }
 
-.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time {
   font-family: "Sail", cursive;
   font-size: 60px;
@@ -19610,7 +19632,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1300px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time {
     font-size: 50px;
     font-size: 3.33333rem;
@@ -19618,7 +19640,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 1100px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time {
     font-size: 40px;
     font-size: 2.66667rem;
@@ -19626,7 +19648,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 991px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time {
     font-size: 50px;
     font-size: 3.33333rem;
@@ -19634,28 +19656,28 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media (max-width: 767px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time {
     font-size: 40px;
     font-size: 2.66667rem;
   }
 }
 
-.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock span,
+.wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockjspan,
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 span {
   color: #5C5C5C;
   font-size: 20px;
 }
 
 @media (max-width: 991px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock span,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockjspan,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 span {
     font-size: 20px;
   }
 }
 
 @media (max-width: 575px) {
-  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock span,
+  .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockjspan,
   .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 span {
     font-size: 18px;
   }
@@ -24652,20 +24674,20 @@ a.ui-button:active, .ui-button:active,
 .color2 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color2 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color2 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color2 .static-hero .wpo-wedding-date #clock .time,
+.color2 .static-hero .wpo-wedding-date #clockj.time,
 .color2 .static-hero .wpo-wedding-date #clock3 .time,
-.color2 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color2 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color2 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color2 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color2 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color2 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color2 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color2 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color2 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color2 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color2 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color2 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color2 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color2 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color2 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color2 .wpo-hero-wedding-date #clock .time,
+.color2 .wpo-hero-wedding-date #clockj.time,
 .color2 .wpo-site-footer .about-widget ul li a,
 .color2 .wpo-site-footer-s2 .about-widget ul li a,
 .color2 .wpo-couple-section-s3 ul li a,
@@ -24683,14 +24705,14 @@ a.ui-button:active, .ui-button:active,
 .color2 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color2 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color2 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color2 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color2 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color2 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color2 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color2 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color2 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color2 .wpo-wedding-countdown #clock .time,
+.color2 .wpo-wedding-countdown #clockj.time,
 .color2 .wpo-wedding-countdown #clock2 .time,
-.color2 .wpo-wedding-countdown-s2 #clock .time,
+.color2 .wpo-wedding-countdown-s2 #clockj.time,
 .color2 .wpo-wedding-countdown-s2 #clock2 .time,
 .color2 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color2 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -24727,7 +24749,7 @@ a.ui-button:active, .ui-button:active,
 .color2 .or span,
 .color2 .wpo-shop-single-section .product-details .price,
 .color2 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color2 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color2 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color2 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color2 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color2 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -25025,20 +25047,20 @@ a.ui-button:active, .ui-button:active,
 .color3 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color3 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color3 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color3 .static-hero .wpo-wedding-date #clock .time,
+.color3 .static-hero .wpo-wedding-date #clockj.time,
 .color3 .static-hero .wpo-wedding-date #clock3 .time,
-.color3 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color3 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color3 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color3 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color3 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color3 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color3 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color3 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color3 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color3 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color3 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color3 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color3 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color3 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color3 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color3 .wpo-hero-wedding-date #clock .time,
+.color3 .wpo-hero-wedding-date #clockj.time,
 .color3 .wpo-site-footer .about-widget ul li a,
 .color3 .wpo-site-footer-s2 .about-widget ul li a,
 .color3 .wpo-couple-section-s3 ul li a,
@@ -25056,14 +25078,14 @@ a.ui-button:active, .ui-button:active,
 .color3 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color3 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color3 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color3 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color3 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color3 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color3 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color3 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color3 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color3 .wpo-wedding-countdown #clock .time,
+.color3 .wpo-wedding-countdown #clockj.time,
 .color3 .wpo-wedding-countdown #clock2 .time,
-.color3 .wpo-wedding-countdown-s2 #clock .time,
+.color3 .wpo-wedding-countdown-s2 #clockj.time,
 .color3 .wpo-wedding-countdown-s2 #clock2 .time,
 .color3 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color3 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -25100,7 +25122,7 @@ a.ui-button:active, .ui-button:active,
 .color3 .or span,
 .color3 .wpo-shop-single-section .product-details .price,
 .color3 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color3 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color3 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color3 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color3 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color3 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -25398,20 +25420,20 @@ a.ui-button:active, .ui-button:active,
 .color4 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color4 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color4 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color4 .static-hero .wpo-wedding-date #clock .time,
+.color4 .static-hero .wpo-wedding-date #clockj.time,
 .color4 .static-hero .wpo-wedding-date #clock3 .time,
-.color4 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color4 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color4 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color4 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color4 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color4 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color4 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color4 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color4 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color4 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color4 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color4 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color4 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color4 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color4 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color4 .wpo-hero-wedding-date #clock .time,
+.color4 .wpo-hero-wedding-date #clockj.time,
 .color4 .wpo-site-footer .about-widget ul li a,
 .color4 .wpo-site-footer-s2 .about-widget ul li a,
 .color4 .wpo-couple-section-s3 ul li a,
@@ -25429,14 +25451,14 @@ a.ui-button:active, .ui-button:active,
 .color4 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color4 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color4 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color4 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color4 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color4 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color4 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color4 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color4 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color4 .wpo-wedding-countdown #clock .time,
+.color4 .wpo-wedding-countdown #clockj.time,
 .color4 .wpo-wedding-countdown #clock2 .time,
-.color4 .wpo-wedding-countdown-s2 #clock .time,
+.color4 .wpo-wedding-countdown-s2 #clockj.time,
 .color4 .wpo-wedding-countdown-s2 #clock2 .time,
 .color4 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color4 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -25473,7 +25495,7 @@ a.ui-button:active, .ui-button:active,
 .color4 .or span,
 .color4 .wpo-shop-single-section .product-details .price,
 .color4 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color4 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color4 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color4 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color4 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color4 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -25771,20 +25793,20 @@ a.ui-button:active, .ui-button:active,
 .color5 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color5 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color5 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color5 .static-hero .wpo-wedding-date #clock .time,
+.color5 .static-hero .wpo-wedding-date #clockj.time,
 .color5 .static-hero .wpo-wedding-date #clock3 .time,
-.color5 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color5 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color5 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color5 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color5 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color5 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color5 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color5 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color5 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color5 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color5 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color5 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color5 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color5 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color5 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color5 .wpo-hero-wedding-date #clock .time,
+.color5 .wpo-hero-wedding-date #clockj.time,
 .color5 .wpo-site-footer .about-widget ul li a,
 .color5 .wpo-site-footer-s2 .about-widget ul li a,
 .color5 .wpo-couple-section-s3 ul li a,
@@ -25802,14 +25824,14 @@ a.ui-button:active, .ui-button:active,
 .color5 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color5 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color5 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color5 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color5 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color5 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color5 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color5 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color5 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color5 .wpo-wedding-countdown #clock .time,
+.color5 .wpo-wedding-countdown #clockj.time,
 .color5 .wpo-wedding-countdown #clock2 .time,
-.color5 .wpo-wedding-countdown-s2 #clock .time,
+.color5 .wpo-wedding-countdown-s2 #clockj.time,
 .color5 .wpo-wedding-countdown-s2 #clock2 .time,
 .color5 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color5 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -25846,7 +25868,7 @@ a.ui-button:active, .ui-button:active,
 .color5 .or span,
 .color5 .wpo-shop-single-section .product-details .price,
 .color5 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color5 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color5 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color5 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color5 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color5 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -26144,20 +26166,20 @@ a.ui-button:active, .ui-button:active,
 .color6 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color6 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color6 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color6 .static-hero .wpo-wedding-date #clock .time,
+.color6 .static-hero .wpo-wedding-date #clockj.time,
 .color6 .static-hero .wpo-wedding-date #clock3 .time,
-.color6 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color6 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color6 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color6 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color6 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color6 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color6 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color6 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color6 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color6 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color6 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color6 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color6 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color6 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color6 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color6 .wpo-hero-wedding-date #clock .time,
+.color6 .wpo-hero-wedding-date #clockj.time,
 .color6 .wpo-site-footer .about-widget ul li a,
 .color6 .wpo-site-footer-s2 .about-widget ul li a,
 .color6 .wpo-couple-section-s3 ul li a,
@@ -26175,14 +26197,14 @@ a.ui-button:active, .ui-button:active,
 .color6 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color6 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color6 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color6 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color6 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color6 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color6 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color6 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color6 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color6 .wpo-wedding-countdown #clock .time,
+.color6 .wpo-wedding-countdown #clockj.time,
 .color6 .wpo-wedding-countdown #clock2 .time,
-.color6 .wpo-wedding-countdown-s2 #clock .time,
+.color6 .wpo-wedding-countdown-s2 #clockj.time,
 .color6 .wpo-wedding-countdown-s2 #clock2 .time,
 .color6 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color6 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -26219,7 +26241,7 @@ a.ui-button:active, .ui-button:active,
 .color6 .or span,
 .color6 .wpo-shop-single-section .product-details .price,
 .color6 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color6 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color6 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color6 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color6 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color6 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -26517,20 +26539,20 @@ a.ui-button:active, .ui-button:active,
 .color7 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color7 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color7 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color7 .static-hero .wpo-wedding-date #clock .time,
+.color7 .static-hero .wpo-wedding-date #clockj.time,
 .color7 .static-hero .wpo-wedding-date #clock3 .time,
-.color7 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color7 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color7 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color7 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color7 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color7 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color7 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color7 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color7 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color7 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color7 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color7 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color7 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color7 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color7 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color7 .wpo-hero-wedding-date #clock .time,
+.color7 .wpo-hero-wedding-date #clockj.time,
 .color7 .wpo-site-footer .about-widget ul li a,
 .color7 .wpo-site-footer-s2 .about-widget ul li a,
 .color7 .wpo-couple-section-s3 ul li a,
@@ -26548,14 +26570,14 @@ a.ui-button:active, .ui-button:active,
 .color7 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color7 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color7 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color7 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color7 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color7 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color7 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color7 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color7 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color7 .wpo-wedding-countdown #clock .time,
+.color7 .wpo-wedding-countdown #clockj.time,
 .color7 .wpo-wedding-countdown #clock2 .time,
-.color7 .wpo-wedding-countdown-s2 #clock .time,
+.color7 .wpo-wedding-countdown-s2 #clockj.time,
 .color7 .wpo-wedding-countdown-s2 #clock2 .time,
 .color7 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color7 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -26592,7 +26614,7 @@ a.ui-button:active, .ui-button:active,
 .color7 .or span,
 .color7 .wpo-shop-single-section .product-details .price,
 .color7 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color7 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color7 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color7 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color7 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color7 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -26890,20 +26912,20 @@ a.ui-button:active, .ui-button:active,
 .color8 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color8 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color8 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color8 .static-hero .wpo-wedding-date #clock .time,
+.color8 .static-hero .wpo-wedding-date #clockj.time,
 .color8 .static-hero .wpo-wedding-date #clock3 .time,
-.color8 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color8 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color8 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color8 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color8 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color8 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color8 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color8 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color8 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color8 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color8 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color8 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color8 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color8 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color8 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color8 .wpo-hero-wedding-date #clock .time,
+.color8 .wpo-hero-wedding-date #clockj.time,
 .color8 .wpo-site-footer .about-widget ul li a,
 .color8 .wpo-site-footer-s2 .about-widget ul li a,
 .color8 .wpo-couple-section-s3 ul li a,
@@ -26921,14 +26943,14 @@ a.ui-button:active, .ui-button:active,
 .color8 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color8 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color8 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color8 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color8 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color8 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color8 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color8 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color8 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color8 .wpo-wedding-countdown #clock .time,
+.color8 .wpo-wedding-countdown #clockj.time,
 .color8 .wpo-wedding-countdown #clock2 .time,
-.color8 .wpo-wedding-countdown-s2 #clock .time,
+.color8 .wpo-wedding-countdown-s2 #clockj.time,
 .color8 .wpo-wedding-countdown-s2 #clock2 .time,
 .color8 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color8 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -26965,7 +26987,7 @@ a.ui-button:active, .ui-button:active,
 .color8 .or span,
 .color8 .wpo-shop-single-section .product-details .price,
 .color8 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color8 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color8 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color8 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color8 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color8 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -27263,20 +27285,20 @@ a.ui-button:active, .ui-button:active,
 .color9 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color9 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color9 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color9 .static-hero .wpo-wedding-date #clock .time,
+.color9 .static-hero .wpo-wedding-date #clockj.time,
 .color9 .static-hero .wpo-wedding-date #clock3 .time,
-.color9 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color9 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color9 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color9 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color9 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color9 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color9 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color9 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color9 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color9 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color9 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color9 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color9 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color9 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color9 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color9 .wpo-hero-wedding-date #clock .time,
+.color9 .wpo-hero-wedding-date #clockj.time,
 .color9 .wpo-site-footer .about-widget ul li a,
 .color9 .wpo-site-footer-s2 .about-widget ul li a,
 .color9 .wpo-couple-section-s3 ul li a,
@@ -27294,14 +27316,14 @@ a.ui-button:active, .ui-button:active,
 .color9 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color9 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color9 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color9 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color9 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color9 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color9 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color9 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color9 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color9 .wpo-wedding-countdown #clock .time,
+.color9 .wpo-wedding-countdown #clockj.time,
 .color9 .wpo-wedding-countdown #clock2 .time,
-.color9 .wpo-wedding-countdown-s2 #clock .time,
+.color9 .wpo-wedding-countdown-s2 #clockj.time,
 .color9 .wpo-wedding-countdown-s2 #clock2 .time,
 .color9 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color9 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -27338,7 +27360,7 @@ a.ui-button:active, .ui-button:active,
 .color9 .or span,
 .color9 .wpo-shop-single-section .product-details .price,
 .color9 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color9 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color9 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color9 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color9 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color9 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -27636,20 +27658,20 @@ a.ui-button:active, .ui-button:active,
 .color10 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color10 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color10 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color10 .static-hero .wpo-wedding-date #clock .time,
+.color10 .static-hero .wpo-wedding-date #clockj.time,
 .color10 .static-hero .wpo-wedding-date #clock3 .time,
-.color10 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color10 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color10 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color10 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color10 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color10 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color10 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color10 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color10 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color10 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color10 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color10 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color10 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color10 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color10 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color10 .wpo-hero-wedding-date #clock .time,
+.color10 .wpo-hero-wedding-date #clockj.time,
 .color10 .wpo-site-footer .about-widget ul li a,
 .color10 .wpo-site-footer-s2 .about-widget ul li a,
 .color10 .wpo-couple-section-s3 ul li a,
@@ -27667,14 +27689,14 @@ a.ui-button:active, .ui-button:active,
 .color10 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color10 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color10 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color10 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color10 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color10 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color10 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color10 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color10 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color10 .wpo-wedding-countdown #clock .time,
+.color10 .wpo-wedding-countdown #clockj.time,
 .color10 .wpo-wedding-countdown #clock2 .time,
-.color10 .wpo-wedding-countdown-s2 #clock .time,
+.color10 .wpo-wedding-countdown-s2 #clockj.time,
 .color10 .wpo-wedding-countdown-s2 #clock2 .time,
 .color10 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color10 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -27711,7 +27733,7 @@ a.ui-button:active, .ui-button:active,
 .color10 .or span,
 .color10 .wpo-shop-single-section .product-details .price,
 .color10 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color10 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color10 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color10 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color10 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color10 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -28009,20 +28031,20 @@ a.ui-button:active, .ui-button:active,
 .color11 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color11 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color11 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color11 .static-hero .wpo-wedding-date #clock .time,
+.color11 .static-hero .wpo-wedding-date #clockj.time,
 .color11 .static-hero .wpo-wedding-date #clock3 .time,
-.color11 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color11 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color11 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color11 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color11 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color11 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color11 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color11 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color11 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color11 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color11 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color11 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color11 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color11 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color11 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color11 .wpo-hero-wedding-date #clock .time,
+.color11 .wpo-hero-wedding-date #clockj.time,
 .color11 .wpo-site-footer .about-widget ul li a,
 .color11 .wpo-site-footer-s2 .about-widget ul li a,
 .color11 .wpo-couple-section-s3 ul li a,
@@ -28040,14 +28062,14 @@ a.ui-button:active, .ui-button:active,
 .color11 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color11 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color11 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color11 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color11 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color11 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color11 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color11 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color11 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color11 .wpo-wedding-countdown #clock .time,
+.color11 .wpo-wedding-countdown #clockj.time,
 .color11 .wpo-wedding-countdown #clock2 .time,
-.color11 .wpo-wedding-countdown-s2 #clock .time,
+.color11 .wpo-wedding-countdown-s2 #clockj.time,
 .color11 .wpo-wedding-countdown-s2 #clock2 .time,
 .color11 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color11 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -28084,7 +28106,7 @@ a.ui-button:active, .ui-button:active,
 .color11 .or span,
 .color11 .wpo-shop-single-section .product-details .price,
 .color11 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color11 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color11 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color11 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color11 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color11 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -28382,20 +28404,20 @@ a.ui-button:active, .ui-button:active,
 .color12 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color12 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color12 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color12 .static-hero .wpo-wedding-date #clock .time,
+.color12 .static-hero .wpo-wedding-date #clockj.time,
 .color12 .static-hero .wpo-wedding-date #clock3 .time,
-.color12 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color12 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color12 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color12 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color12 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color12 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color12 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color12 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color12 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color12 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color12 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color12 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color12 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color12 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color12 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color12 .wpo-hero-wedding-date #clock .time,
+.color12 .wpo-hero-wedding-date #clockj.time,
 .color12 .wpo-site-footer .about-widget ul li a,
 .color12 .wpo-site-footer-s2 .about-widget ul li a,
 .color12 .wpo-couple-section-s3 ul li a,
@@ -28413,14 +28435,14 @@ a.ui-button:active, .ui-button:active,
 .color12 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color12 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color12 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color12 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color12 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color12 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color12 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color12 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color12 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color12 .wpo-wedding-countdown #clock .time,
+.color12 .wpo-wedding-countdown #clockj.time,
 .color12 .wpo-wedding-countdown #clock2 .time,
-.color12 .wpo-wedding-countdown-s2 #clock .time,
+.color12 .wpo-wedding-countdown-s2 #clockj.time,
 .color12 .wpo-wedding-countdown-s2 #clock2 .time,
 .color12 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color12 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -28457,7 +28479,7 @@ a.ui-button:active, .ui-button:active,
 .color12 .or span,
 .color12 .wpo-shop-single-section .product-details .price,
 .color12 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color12 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color12 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color12 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color12 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color12 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -28755,20 +28777,20 @@ a.ui-button:active, .ui-button:active,
 .color13 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color13 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color13 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color13 .static-hero .wpo-wedding-date #clock .time,
+.color13 .static-hero .wpo-wedding-date #clockj.time,
 .color13 .static-hero .wpo-wedding-date #clock3 .time,
-.color13 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color13 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color13 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color13 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color13 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color13 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color13 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color13 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color13 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color13 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color13 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color13 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color13 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color13 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color13 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color13 .wpo-hero-wedding-date #clock .time,
+.color13 .wpo-hero-wedding-date #clockj.time,
 .color13 .wpo-site-footer .about-widget ul li a,
 .color13 .wpo-site-footer-s2 .about-widget ul li a,
 .color13 .wpo-couple-section-s3 ul li a,
@@ -28786,14 +28808,14 @@ a.ui-button:active, .ui-button:active,
 .color13 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color13 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color13 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color13 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color13 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color13 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color13 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color13 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color13 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color13 .wpo-wedding-countdown #clock .time,
+.color13 .wpo-wedding-countdown #clockj.time,
 .color13 .wpo-wedding-countdown #clock2 .time,
-.color13 .wpo-wedding-countdown-s2 #clock .time,
+.color13 .wpo-wedding-countdown-s2 #clockj.time,
 .color13 .wpo-wedding-countdown-s2 #clock2 .time,
 .color13 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color13 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -28830,7 +28852,7 @@ a.ui-button:active, .ui-button:active,
 .color13 .or span,
 .color13 .wpo-shop-single-section .product-details .price,
 .color13 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color13 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color13 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color13 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color13 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color13 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -29128,20 +29150,20 @@ a.ui-button:active, .ui-button:active,
 .color14 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color14 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color14 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color14 .static-hero .wpo-wedding-date #clock .time,
+.color14 .static-hero .wpo-wedding-date #clockj.time,
 .color14 .static-hero .wpo-wedding-date #clock3 .time,
-.color14 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color14 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color14 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color14 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color14 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color14 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color14 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color14 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color14 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color14 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color14 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color14 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color14 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color14 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color14 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color14 .wpo-hero-wedding-date #clock .time,
+.color14 .wpo-hero-wedding-date #clockj.time,
 .color14 .wpo-site-footer .about-widget ul li a,
 .color14 .wpo-site-footer-s2 .about-widget ul li a,
 .color14 .wpo-couple-section-s3 ul li a,
@@ -29159,14 +29181,14 @@ a.ui-button:active, .ui-button:active,
 .color14 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color14 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color14 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color14 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color14 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color14 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color14 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color14 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color14 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color14 .wpo-wedding-countdown #clock .time,
+.color14 .wpo-wedding-countdown #clockj.time,
 .color14 .wpo-wedding-countdown #clock2 .time,
-.color14 .wpo-wedding-countdown-s2 #clock .time,
+.color14 .wpo-wedding-countdown-s2 #clockj.time,
 .color14 .wpo-wedding-countdown-s2 #clock2 .time,
 .color14 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color14 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -29203,7 +29225,7 @@ a.ui-button:active, .ui-button:active,
 .color14 .or span,
 .color14 .wpo-shop-single-section .product-details .price,
 .color14 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color14 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color14 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color14 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color14 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color14 .blog-sidebar .recent-post-widget .post h4 a:hover,
@@ -29501,20 +29523,20 @@ a.ui-button:active, .ui-button:active,
 .color15 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color15 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a:hover,
 .color15 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a:hover,
-.color15 .static-hero .wpo-wedding-date #clock .time,
+.color15 .static-hero .wpo-wedding-date #clockj.time,
 .color15 .static-hero .wpo-wedding-date #clock3 .time,
-.color15 .static-hero-s2 .wpo-wedding-date #clock .time,
+.color15 .static-hero-s2 .wpo-wedding-date #clockj.time,
 .color15 .static-hero-s2 .wpo-wedding-date #clock3 .time,
-.color15 .static-hero-s3 .wpo-wedding-date #clock .time,
+.color15 .static-hero-s3 .wpo-wedding-date #clockj.time,
 .color15 .static-hero-s3 .wpo-wedding-date #clock3 .time,
-.color15 .static-hero-s5 .wpo-wedding-date #clock .time,
+.color15 .static-hero-s5 .wpo-wedding-date #clockj.time,
 .color15 .static-hero-s5 .wpo-wedding-date #clock3 .time,
-.color15 .static-hero-s10 .wpo-wedding-date #clock .time,
+.color15 .static-hero-s10 .wpo-wedding-date #clockj.time,
 .color15 .static-hero-s10 .wpo-wedding-date #clock3 .time,
 .color15 .wpo-couple-section .couple-area .couple-item .couple-text ul li a,
 .color15 .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner span,
 .color15 .wpo-hero-wedding-date .wpo-wedding-date-inner,
-.color15 .wpo-hero-wedding-date #clock .time,
+.color15 .wpo-hero-wedding-date #clockj.time,
 .color15 .wpo-site-footer .about-widget ul li a,
 .color15 .wpo-site-footer-s2 .about-widget ul li a,
 .color15 .wpo-couple-section-s3 ul li a,
@@ -29532,14 +29554,14 @@ a.ui-button:active, .ui-button:active,
 .color15 .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color15 .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content span,
 .color15 .wpo-event-section-s4 .wpo-event-item .wpo-event-text ul li a,
-.color15 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clock .time,
+.color15 .wpo-invitation-area .wpo-invitation-wrap .wpo-invitation-info #clockj.time,
 .color15 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul li a,
 .color15 .static-hero-s7 .wpo-static-hero-inner .slide-sub-title span,
 .color15 .wpo-invitation-area-s2 .wpo-event-item .wpo-event-text ul li a,
 .color15 .wpo-coming-soon-area .wpo-event-item .wpo-event-text ul li a,
-.color15 .wpo-wedding-countdown #clock .time,
+.color15 .wpo-wedding-countdown #clockj.time,
 .color15 .wpo-wedding-countdown #clock2 .time,
-.color15 .wpo-wedding-countdown-s2 #clock .time,
+.color15 .wpo-wedding-countdown-s2 #clockj.time,
 .color15 .wpo-wedding-countdown-s2 #clock2 .time,
 .color15 .wpo-event-section-s3 .wpo-event-item .wpo-event-text ul li a,
 .color15 .wpo-service-section .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -29576,7 +29598,7 @@ a.ui-button:active, .ui-button:active,
 .color15 .or span,
 .color15 .wpo-shop-single-section .product-details .price,
 .color15 .wpo-checkout-area .cout-order-area .oreder-item ul .o-bottom,
-.color15 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock .time,
+.color15 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clockj.time,
 .color15 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 .time,
 .color15 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before,
 .color15 .blog-sidebar .recent-post-widget .post h4 a:hover,
