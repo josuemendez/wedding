@@ -1,0 +1,249 @@
+@import url('../../css');
+
+@font-face {
+  font-family: 'Frutilla Script';
+  src: url('../../fonts/frutilla-script.woff2');
+  src: url('../../fonts/frutilla-script.woff2') format('woff2'),
+       url('../../fonts/frutilla-script.woff') format('woff'),
+       url('/fonts/frutilla-script.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Stella Wilson';
+  src: url('../../fonts/stella-wilson.woff2');
+  src: url('../../fonts/stella-wilson.woff2') format('woff2'),
+       url('../../fonts/stella-wilson.woff') format('woff'),
+       url('/fonts/stella-wilson.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'denver-icons';
+  src:  url('denver-icons.eot?9uwhi');
+  src:  url('denver-icons.eot?9uwhi#iefix') format('embedded-opentype'),
+    url('denver-icons.woff2?9uwhi') format('woff2'),
+    url('denver-icons.ttf?9uwhi') format('truetype'),
+    url('denver-icons.woff?9uwhi') format('woff'),
+    url('denver-icons.svg?9uwhi#denver-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #ffffff;
+  background: #000000;
+}
+
+/* Menu */
+
+.menu {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  background: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 2.5;
+}
+
+.menu__names {
+  font-family: 'Frutilla Script', serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 0 5px;
+}
+
+.menu__and {
+  margin: 0 -0.1em;
+}
+
+.menu__link {
+  padding-top: 13px;
+  padding-bottom: 7px;
+}
+
+.menu__link--rsvp {
+  color: #000000;
+  background: #ffffff;
+}
+
+/* Site */
+
+.site {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 2.5;
+  color: #ffffff;
+  background: #000000;
+}
+
+/* Header */
+
+.header__main {
+  font-family: 'Frutilla Script', serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 250px;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 0.6;
+  margin: 100px 0;
+}
+
+.header__name {
+  display: block;
+}
+
+.header__name:last-child,
+.header__delimiter {
+  display: inline;
+}
+
+.header__delimiter {
+  font-size: 70%;
+  vertical-align: super;
+  margin-right: -0.2em;
+  line-height: 0;
+}
+
+.header__lastname {
+  display: none;
+}
+
+.header__date {
+  font-size: 18px;
+}
+
+.header__button {
+  padding: 15px 15px 10px;
+  color: #000000;
+  background: #ffffff;
+}
+
+/* Sections */
+
+.section__heading {
+  font-family: 'Frutilla Script', serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 150px;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 0;
+}
+
+.section__title {
+  font-family: 'Stella Wilson', serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 72px;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 0 0 10px;
+}
+
+.section__button {
+  padding: 0.75em;
+  color: #000000;
+  background: #ffffff;
+}
+
+.section__input {
+  border: 1px solid #ffffff;
+}
+
+.section__label {
+  font-size: inherit;
+  line-height: 2.5;
+  margin-bottom: 10px;
+}
+
+.section__divider {
+  color: #ffffff;
+  background: #ffffff;
+}
+
+/* Quote */
+
+.section--element-quote .section__text:before,
+.section--element-quote .section__text:after {
+  background: #ffffff;
+}
+
+/* Timeline */
+
+.section--element-timeline:before {
+  width: 2px;
+  background: #ffffff;
+}
+
+.section--element-timeline:after {
+  width: 6px;
+  height: 6px;
+  border: 2px solid #ffffff;
+  background: #000000;
+}
+
+@media (min-width: 768px) {
+  .section--element-timeline.section--width-half:before {
+    margin-left: -1px;
+  }
+
+  .section--element-timeline:after {
+    margin-left: -5px;
+  }
+}
+
+/* Variations */
+
+.v2,
+.v2 .menu,
+.v2 .site {
+  color: #000000;
+  background: #ffffff;
+}
+
+.v2 .menu__link--rsvp,
+.v2 .header__button,
+.v2 .section__button {
+  color: #ffffff;
+  background: #000000;
+}
+
+.v2 .section--element-quote .section__text:before,
+.v2 .section--element-quote .section__text:after,
+.v2 .section--element-timeline:before {
+  background: #000000;
+}
+
+.v2 .section--element-timeline:after {
+  border-color: #000000;
+  background: #ffffff;
+}
+
+.v2 .section__divider {
+  color: #000000;
+  background: #000000;
+}
+
+.v2 .section__input {
+  border-color: #000000;
+}
+
+/* Header overlay */
+
+.header--overlay,
+.header--overlay .header__delimiter {
+  color: #fff !important;
+}

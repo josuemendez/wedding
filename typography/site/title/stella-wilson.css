@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Stella Wilson';
+  src: url('../../../fonts/stella-wilson.woff2');
+  src: url('../../../fonts/stella-wilson.woff2') format('woff2'),
+       url('../../../fonts/stella-wilson.woff') format('woff'),
+       url('/fonts/stella-wilson.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+.section__title {
+  font-family: 'Stella Wilson', serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 1;
+  text-transform: none;
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Frutilla Script';
+  src: url('../../../fonts/frutilla-script.woff2');
+  src: url('../../../fonts/frutilla-script.woff2') format('woff2'),
+       url('../../../fonts/frutilla-script.woff') format('woff'),
+       url('/fonts/frutilla-script.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+.header__main,
+.menu__names {
+  font-family: 'Frutilla Script', serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 0.6;
+  text-transform: none;
+}
+
+.menu__names {
+  font-size: 60px;
+}
